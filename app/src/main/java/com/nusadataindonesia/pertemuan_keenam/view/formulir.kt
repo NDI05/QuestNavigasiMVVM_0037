@@ -95,7 +95,8 @@ fun FormIsian(
             )
             Spacer(modifier = Modifier.padding(30.dp))
             Button(
-                modifier = Modifier.fillMaxWidth(1f)
+                modifier = Modifier
+                    .fillMaxWidth(1f)
                     .padding(25.dp),
                 onClick = OnSubmitBtnClick
             ) {
