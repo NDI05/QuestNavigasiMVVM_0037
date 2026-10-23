@@ -47,7 +47,7 @@ fun tampilinData(
             ) {
                 items.forEach { item ->
                     Column{
-                        Text(text = item.first.uppercase(), fontSize = 22.sp)
+                        Text(text = item.first.uppercase(), fontSize = 16.sp)
                     }
                 }
             }
